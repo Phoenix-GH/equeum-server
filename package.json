@@ -1,0 +1,22 @@
+{
+  "name": "postgraphile-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "graphiql": "^0.11.11",
+    "graphql": "^0.13.1",
+    "pg": "^7.4.1",
+    "postgraphile": "^4.0.0-alpha2.33",
+    "postgraphile-core": "0.1.0-alpha.41"
+  }
+}
